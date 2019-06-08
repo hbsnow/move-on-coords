@@ -2,7 +2,7 @@
   "name": "move-on-line",
   "version": "0.0.0-development",
   "main": "./lib/move-on-line.js",
-  "repository": "https://github.com/hbsnow/move-on-line..git",
+  "repository": "https://github.com/hbsnow/move-on-line.git",
   "author": "hbsnow <yuki.4uing@gmail.com>",
   "license": "MIT",
   "devDependencies": {
