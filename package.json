@@ -1,7 +1,7 @@
 {
   "name": "move-on-line",
   "version": "0.0.0-development",
-  "main": "./lib/move-on-line.js",
+  "main": "lib/move-on-line.js",
   "repository": "https://github.com/hbsnow/move-on-line.git",
   "author": "hbsnow <yuki.4uing@gmail.com>",
   "license": "MIT",
@@ -26,13 +26,13 @@
     "lintfix": "eslint src/* --fix"
   },
   "files": [
-    "./lib/move-on-line.js",
-    "./lib/move-on-line.d.ts"
+    "src",
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "types": "./lib/move-on-line.d.ts",
+  "types": "lib/move-on-line.d.ts",
   "ava": {
     "compileEnhancements": false,
     "extensions": [
