@@ -1,30 +1,45 @@
 {
-  "name": "lerp",
+  "name": "move-on-line",
   "version": "0.0.0-development",
-  "main": "lib/lerp.js",
-  "repository": "https://github.com/hbsnow/lerp.git",
+  "main": "./lib/move-on-line.js",
+  "repository": "https://github.com/hbsnow/move-on-line..git",
   "author": "hbsnow <yuki.4uing@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
-    "ava": "^1.4.1",
+    "ava": "^2.0.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.17.1",
+    "prettier": "^1.18.2",
     "semantic-release": "^15.13.12",
     "ts-node": "^8.2.0",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.1"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "test": "tsc && ava --verbose",
+    "build": "tsc",
+    "semantic-release": "semantic-release",
+    "format": "prettier --write '**/*.{js,mjs,ts,md,}' '!lib/**/*.js'",
+    "lint": "eslint src/*",
+    "lintfix": "eslint src/* --fix"
   },
   "files": [
-    "lib/lerp.js",
-    "lib/lerp.d.ts"
+    "./lib/move-on-line.js",
+    "./lib/move-on-line.d.ts"
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "types": "./lib/move-on-line.d.ts",
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
   }
 }
