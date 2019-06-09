@@ -1,6 +1,6 @@
 {
   "name": "@hbsnow/move-on-coords",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/move-on-coords.js",
   "repository": "https://github.com/hbsnow/move-on-coords.git",
   "author": "hbsnow <yuki.4uing@gmail.com>",
