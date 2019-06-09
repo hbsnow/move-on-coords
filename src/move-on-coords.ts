@@ -30,7 +30,7 @@ export const lerp = (a: number[], b: number[]): number =>
  * @param distance 移動距離
  * @param options オプション
  */
-export const move = (
+export const moveOnCoords = (
   a: number[],
   b: number[],
   distance: number,
