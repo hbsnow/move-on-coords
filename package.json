@@ -26,7 +26,6 @@
     "lintfix": "eslint src/* --fix"
   },
   "files": [
-    "src",
     "lib"
   ],
   "publishConfig": {
